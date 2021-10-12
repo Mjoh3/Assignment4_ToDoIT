@@ -31,13 +31,7 @@ namespace ToDoIT_XUNIT
         {
             Assert.Throws<ArgumentException>(() => new Person(firstname, lastname));//in this case we check for empty fields
         }
-        [Fact]
-        public void IDcountincreases() //an id should be unique so we check that the increase function in the constructor works
-        {
-            var person1 = new Person("Jack", "Peterson");
-            var person2 = new Person("Peter", "Jackson");
-            Assert.True(person1.GetPersonID() + 1 == person2.GetPersonID());
-        }
+        
         
     }
 }
