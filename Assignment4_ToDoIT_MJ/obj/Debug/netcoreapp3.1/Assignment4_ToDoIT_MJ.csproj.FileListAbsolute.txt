@@ -1,0 +1,14 @@
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\bin\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.exe
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\bin\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.deps.json
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\bin\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.runtimeconfig.json
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\bin\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.runtimeconfig.dev.json
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\bin\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.dll
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\bin\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.pdb
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\obj\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.csproj.AssemblyReference.cache
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\obj\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\obj\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.AssemblyInfoInputs.cache
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\obj\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.AssemblyInfo.cs
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\obj\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.csproj.CoreCompileInputs.cache
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\obj\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.dll
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\obj\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.pdb
+C:\Users\Martin Johansson\source\repos\Assignment4_ToDoIT_MJ\Assignment4_ToDoIT_MJ\obj\Debug\netcoreapp3.1\Assignment4_ToDoIT_MJ.genruntimeconfig.cache
