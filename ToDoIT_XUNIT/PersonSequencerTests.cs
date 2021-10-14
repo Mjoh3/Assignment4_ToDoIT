@@ -18,10 +18,7 @@ namespace ToDoIT_XUNIT
             int previous = PersonSequencer.getPersonId();
             Assert.Equal((previous + 1), PersonSequencer.nextPersonId());
         }
-        [Fact]
-        public void PersonSequencerIs1() //PersonId should be 1 because I incremented once
-        {
-            Assert.Equal(1, PersonSequencer.getPersonId());
-        }
+        
+        
     }
 }

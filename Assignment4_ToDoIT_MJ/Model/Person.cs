@@ -13,7 +13,7 @@ namespace Assignment4_ToDoIT_MJ.Model
 
         public Person(string firstName,string lastName)
         {
-            
+            personId = Data.PersonSequencer.nextPersonId();
             FirstName = firstName; //using the property field in order to prevent empty fields or null values
             LastName = lastName; //-**-
         }
@@ -44,5 +44,6 @@ namespace Assignment4_ToDoIT_MJ.Model
                     lastName = value;
             }
         }
+        public int GetPersonId() { return personId; }
     }
 }
