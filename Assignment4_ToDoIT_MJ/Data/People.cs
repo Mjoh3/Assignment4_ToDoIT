@@ -32,6 +32,29 @@ namespace Assignment4_ToDoIT_MJ.Data
             return personArray[personArray.Length - 1];
         }
         public void Clear() { personArray = new Person[0]; } //creating a new empty array is the same as clearing the old.
-
+        public void RemoveSelectedPerson(Person person)
+        {//this method works exactly the same way as removeselectedtodo
+            int personidx = 0;
+            while (personidx < personArray.Length)
+            {
+                if (person.Equals(personArray[personidx]))
+                {
+                    break;
+                }
+                personidx++;
+            }
+            if (personidx < personArray.Length)
+            {
+                for (int i = personidx; i < (personArray.Length - 1); i++)
+                {
+                    personArray[i] = personArray[i + 1];
+                }
+                Array.Resize(ref personArray, (personArray.Length - 1));
+            }
+            else
+            {
+                throw new Exception("could not find the person");
+            }
+        }
     }
 }
