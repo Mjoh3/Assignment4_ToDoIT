@@ -4,6 +4,7 @@ using Assignment4_ToDoIT_MJ.Data;
 
 namespace ToDoIT_XUNIT
 {
+    [Collection("Sequential")]
     public class ToDoSequencerTests
     {
 

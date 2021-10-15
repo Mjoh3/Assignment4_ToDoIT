@@ -1,6 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
+
 using Assignment4_ToDoIT_MJ.Model;
 namespace Assignment4_ToDoIT_MJ.Data
 {
@@ -33,5 +32,69 @@ namespace Assignment4_ToDoIT_MJ.Data
             return todoArray[todoArray.Length - 1];
         }
         public void Clear() { todoArray = new Todo[0]; } //creating a new empty array is the same as clearing the 
+
+        public Todo[] FindByDoneStatus(bool doneStatus)
+        {
+            Todo[] donelist = new Todo[0];
+            int listsize = donelist.Length;
+            foreach(var p in todoArray)
+            {
+                if (doneStatus == p.Done) {
+                    listsize = donelist.Length;
+                    Array.Resize(ref donelist, listsize + 1);
+                    donelist[listsize] = p;
+                }
+            }
+            return donelist;
+        }
+        public Todo[] FindByAssignee(int personId) //check first if the 
+        {
+            //Person assignee = this.assi
+            Todo[] donelist = new Todo[0];
+            int listsize = donelist.Length;
+            foreach (var p in todoArray)
+            {
+                if (p.Assignee != null)
+                {
+                    if (p.Assignee.GetPersonId() == personId)
+                    {
+                        listsize = donelist.Length;
+                        Array.Resize(ref donelist, listsize + 1);
+                        donelist[listsize] = p;
+                    }
+                }
+            }
+            return donelist;
+        }
+        public Todo[] FindByAssignee(Person assignee)
+        {
+            Todo[] donelist = new Todo[0];
+            int listsize = donelist.Length;
+            foreach (var p in todoArray)
+            {
+                if (p.Assignee==assignee)
+                {
+                    listsize = donelist.Length;
+                    Array.Resize(ref donelist, listsize + 1);
+                    donelist[listsize] = p;
+                }
+            }
+            return donelist;
+        }
+        public Todo[] FindUnassignedTodoItems() //similar to last method but only adds if the assignee is null
+        {
+            Todo[] donelist = new Todo[0];
+            int listsize = donelist.Length;
+            foreach (var p in todoArray)
+            {
+                if (p.Assignee == null)
+                {
+                    listsize = donelist.Length;
+                    Array.Resize(ref donelist, listsize + 1);
+                    donelist[listsize] = p;
+                }
+            }
+            return donelist;
+        }
     }
 }
